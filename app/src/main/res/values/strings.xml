@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Solve All Girls</string>
+
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="initial_score">Score 0/18</string>
+
+    <string name="incorrect_toast">Wrong!</string>
+    <string name="correct_toast">You got it!</string>
+
+    <string name="question1">Women are crazy.</string>
+    <string name="question2">Women see sex as a gift given to a man.</string>
+    <string name="question3">Woman love man who disrespects them.</string>
+    <string name="question4">Woman love sensitive man.</string>
+    <string name="question5">Women want their man to be honest.</string>
+    <string name="question6">Women want to know all your past relationships.</string>
+    <string name="question7">Women do like being compared them with your mom.</string>
+    <string name="question8">Women believe that they have you forget your ex\'s</string>
+    <string name="question9">If man had known what women think in their brains, man would have been more bold in their actions.</string>
+    <string name="question10">When woman mad at you, actually they want their man to pull them from her waist and kiss their neck.</string>
+    <string name="question11">When woman makes you meet her friends, she wants to make fun of you and humiliate you.</string>
+    <string name="question12">When you meet her friends, you should make her friends happy and get their attention.</string>
+    <string name="question13">Woman are more into visual things.</string>
+    <string name="question14">Women when they hear good things from a man they get horny. </string>
+    <string name="question15">Woman hate strong man</string>
+    <string name="question16">A man should not show their madness, anger or should not strike an attitute to their woman</string>
+    <string name="question17">Women love to be controlled.</string>
+    <string name="question18">Women dont like man who talk too much</string>
+</resources>
