@@ -57,6 +57,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        if(savedInstanceState!=null){
+            numForScore = savedInstanceState.getInt("ScoreKey");
+            numberForArray = savedInstanceState.getInt("IndexKey");
+        }
+        else{
+            numForScore=0;
+            numberForArray=0;
+
+        }
+
         upView();
 
 
@@ -88,6 +98,10 @@ public class MainActivity extends AppCompatActivity {
         false_button = findViewById(R.id.false_button);
         stringTextView = findViewById(R.id.question_text_view);
         score = findViewById(R.id.score);
+
+        score.setText("Score "+numForScore+"/"+arrayQuestions.length);
+        stringTextView.setText(arrayQuestions[numberForArray].getmQuestionID());
+
         progressBar = findViewById(R.id.progress_bar);
 
     }
@@ -131,5 +145,13 @@ public class MainActivity extends AppCompatActivity {
 
 
         }
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+
+        outState.putInt("ScoreKey",numForScore);
+        outState.putInt("IndexKey",numberForArray);
     }
 }
